@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">NBACatalog</string>
+    <string name="not_available">Not Available</string>
+    <string name="label_format">%1$s:</string>
+    <string name="top_bar_title">NBA Catalog</string>
+    <string name="back_arrow_content_description">Back</string>
+
+    <string name="players_fetch_page_error">Page load error</string>
+
+    <string name="team_title_format">Team: %1$s</string>
+    <string name="team_city_label">City</string>
+    <string name="team_abbreviation_label">Abbreviation</string>
+    <string name="team_conference_label">Conference</string>
+    <string name="team_division_label">Division</string>
+    <string name="team_content_description_action">Go to Team Details</string>
+
+    <string name="player_position_label">Position</string>
+    <string name="player_height_label">Height</string>
+    <string name="player_weight_label">Weight</string>
+    <string name="player_jersey_number_label">Jersey Number</string>
+    <string name="player_college_label">College</string>
+    <string name="player_country_label">Country</string>
+    <string name="player_draft_label">Draft</string>
+    <string name="player_draft_format">Draft: %1$s, Round %2$s, Pick %3$s</string>
+</resources>
