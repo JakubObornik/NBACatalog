@@ -6,6 +6,8 @@
     <string name="back_arrow_content_description">Back</string>
 
     <string name="players_fetch_page_error">Page load error</string>
+    <string name="players_content_description_action">Go to Player Details</string>
+    <string name="players_label_info_format">%1$s: %2$s</string>
 
     <string name="team_title_format">Team: %1$s</string>
     <string name="team_city_label">City</string>
@@ -15,6 +17,7 @@
     <string name="team_content_description_action">Go to Team Details</string>
 
     <string name="player_position_label">Position</string>
+    <string name="player_team_label">Team</string>
     <string name="player_height_label">Height</string>
     <string name="player_weight_label">Weight</string>
     <string name="player_jersey_number_label">Jersey Number</string>

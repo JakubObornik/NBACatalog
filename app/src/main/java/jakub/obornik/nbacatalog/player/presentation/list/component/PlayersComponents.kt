@@ -53,16 +53,20 @@ internal fun PlayerItem(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
-            PlayerInfoSection(player = player)
-            ArrowIcon("Go to Player Details")
+            PlayerInfoSection(
+                player = player,
+                modifier = Modifier.weight(1f),
+            )
+            ArrowIcon(stringResource(R.string.players_content_description_action))
         }
     }
 }
 
 @Composable
-internal fun PlayerInfoSection(player: NBAPlayer) {
+internal fun PlayerInfoSection(player: NBAPlayer, modifier: Modifier = Modifier) {
     Row(
-        verticalAlignment = Alignment.CenterVertically
+        verticalAlignment = Alignment.CenterVertically,
+        modifier = modifier,
     ) {
         CircleImage(
             url = player.placeholderImageUrl,
@@ -74,8 +78,8 @@ internal fun PlayerInfoSection(player: NBAPlayer) {
             PlayerName(name = "${player.firstName} ${player.lastName}")
             Spacer(modifier = Modifier.height(4.dp))
             PlayerDetails(
-                position = player.position.orEmpty(),
-                teamName = player.team?.name.orEmpty()
+                position = player.position,
+                teamName = player.team?.name
             )
         }
     }
@@ -92,14 +96,21 @@ internal fun PlayerName(name: String) {
 }
 
 @Composable
-internal fun PlayerDetails(position: String, teamName: String) {
+internal fun PlayerDetails(position: String?, teamName: String?) {
+    val notAvailable = stringResource(id = R.string.not_available)
     Text(
-        text = "Position: $position",
+        text = stringResource(
+            R.string.players_label_info_format,
+            stringResource(R.string.player_position_label), position ?: notAvailable
+        ),
         fontSize = 14.sp,
         color = MaterialTheme.colorScheme.secondary
     )
     Text(
-        text = "Team: $teamName",
+        text = stringResource(
+            R.string.players_label_info_format,
+            stringResource(R.string.player_team_label), teamName ?: notAvailable
+        ),
         fontSize = 14.sp,
         color = MaterialTheme.colorScheme.secondary
     )
