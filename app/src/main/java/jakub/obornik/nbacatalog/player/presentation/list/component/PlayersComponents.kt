@@ -30,7 +30,7 @@ import androidx.compose.ui.unit.sp
 import com.bumptech.glide.integration.compose.ExperimentalGlideComposeApi
 import jakub.obornik.nbacatalog.R
 import jakub.obornik.nbacatalog.core.presentation.component.CircleImage
-import jakub.obornik.nbacatalog.player.domain.NBAPlayer
+import jakub.obornik.nbacatalog.player.data.network.NBAPlayer
 
 @Composable
 internal fun PlayerItem(

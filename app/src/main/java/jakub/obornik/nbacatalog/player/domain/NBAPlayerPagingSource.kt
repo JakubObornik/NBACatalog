@@ -3,6 +3,7 @@ package jakub.obornik.nbacatalog.player.domain
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
 import jakub.obornik.nbacatalog.core.network.BallDontLieApiService
+import jakub.obornik.nbacatalog.player.data.network.NBAPlayer
 import javax.inject.Inject
 
 /**

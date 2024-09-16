@@ -1,8 +1,6 @@
-package jakub.obornik.nbacatalog.player.domain
+package jakub.obornik.nbacatalog.player.data.network
 
-import android.os.Parcelable
 import kotlinx.parcelize.IgnoredOnParcel
-import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

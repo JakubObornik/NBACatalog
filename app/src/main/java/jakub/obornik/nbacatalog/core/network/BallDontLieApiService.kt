@@ -1,8 +1,8 @@
 package jakub.obornik.nbacatalog.core.network
 
-import jakub.obornik.nbacatalog.player.domain.PlayerResponse
-import jakub.obornik.nbacatalog.player.domain.PlayersResponse
-import jakub.obornik.nbacatalog.team.domain.TeamResponse
+import jakub.obornik.nbacatalog.player.data.network.PlayerResponse
+import jakub.obornik.nbacatalog.player.data.network.PlayersResponse
+import jakub.obornik.nbacatalog.team.data.network.TeamResponse
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

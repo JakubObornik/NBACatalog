@@ -27,8 +27,8 @@ import jakub.obornik.nbacatalog.R
 import jakub.obornik.nbacatalog.core.presentation.component.CircleImage
 import jakub.obornik.nbacatalog.core.presentation.component.ErrorScreen
 import jakub.obornik.nbacatalog.core.presentation.component.TitleName
-import jakub.obornik.nbacatalog.player.domain.NBAPlayer
-import jakub.obornik.nbacatalog.player.domain.Team
+import jakub.obornik.nbacatalog.player.data.network.NBAPlayer
+import jakub.obornik.nbacatalog.player.data.network.Team
 import jakub.obornik.nbacatalog.player.presentation.detail.component.PlayerExtendedInfoCard
 import jakub.obornik.nbacatalog.player.presentation.detail.component.TeamCard
 import jakub.obornik.nbacatalog.player.presentation.preview.PlayerPreviewProvider

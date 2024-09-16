@@ -15,8 +15,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import jakub.obornik.nbacatalog.R
-import jakub.obornik.nbacatalog.player.domain.NBAPlayer
-import jakub.obornik.nbacatalog.player.domain.Team
+import jakub.obornik.nbacatalog.player.data.network.NBAPlayer
+import jakub.obornik.nbacatalog.player.data.network.Team
 import jakub.obornik.nbacatalog.player.presentation.list.component.ArrowIcon
 import jakub.obornik.nbacatalog.player.presentation.list.component.InfoItem
 

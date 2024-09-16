@@ -14,7 +14,6 @@ import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -22,7 +21,7 @@ import androidx.paging.LoadState
 import androidx.paging.compose.collectAsLazyPagingItems
 import jakub.obornik.nbacatalog.R
 import jakub.obornik.nbacatalog.core.presentation.component.ErrorScreen
-import jakub.obornik.nbacatalog.player.domain.NBAPlayer
+import jakub.obornik.nbacatalog.player.data.network.NBAPlayer
 import jakub.obornik.nbacatalog.player.presentation.list.component.PlayerItem
 import jakub.obornik.nbacatalog.player.presentation.preview.PlayerPreviewProvider
 import jakub.obornik.nbacatalog.ui.theme.NBACatalogTheme

@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import jakub.obornik.nbacatalog.core.presentation.UiState
-import jakub.obornik.nbacatalog.player.domain.NBAPlayer
+import jakub.obornik.nbacatalog.player.data.network.NBAPlayer
 import jakub.obornik.nbacatalog.player.domain.usecase.GetPlayerUseCaseUseCase
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch

@@ -1,7 +1,6 @@
-package jakub.obornik.nbacatalog.team.domain
+package jakub.obornik.nbacatalog.team.data.network
 
-
-import jakub.obornik.nbacatalog.player.domain.Team
+import jakub.obornik.nbacatalog.player.data.network.Team
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

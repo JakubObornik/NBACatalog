@@ -3,7 +3,7 @@ package jakub.obornik.nbacatalog.player.domain.usecase
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
-import jakub.obornik.nbacatalog.player.domain.NBAPlayer
+import jakub.obornik.nbacatalog.player.data.network.NBAPlayer
 import jakub.obornik.nbacatalog.player.domain.NBAPlayerPagingSource
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject

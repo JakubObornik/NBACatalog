@@ -1,8 +1,8 @@
 package jakub.obornik.nbacatalog.player.presentation.preview
 
 import androidx.compose.ui.tooling.preview.PreviewParameterProvider
-import jakub.obornik.nbacatalog.player.domain.NBAPlayer
-import jakub.obornik.nbacatalog.player.domain.Team
+import jakub.obornik.nbacatalog.player.data.network.NBAPlayer
+import jakub.obornik.nbacatalog.player.data.network.Team
 
 internal class PlayerPreviewProvider : PreviewParameterProvider<NBAPlayer> {
 
