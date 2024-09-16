@@ -17,9 +17,9 @@ An app primarily focused on showing NBA player list
 - NBA player detail
 - NBA team detail
 
-## Credentials in app
+## Credentials in the app
 
-In this project, we use the [Ball Don't Lie API](https://app.balldontlie.io/) to retrieve NBA player
-data. The API key for accessing the service is securely stored in the Gradle build configuration.u
-don't have access, there is a link how to register with your
-own [Register](https://app.balldontlie.io/signup).
+This project uses the [Ball Don't Lie API](https://app.balldontlie.io/) to retrieve NBA player
+data. The API key for accessing the service is securely stored in the Gradle build configuration. If you
+don't have access, there is a link to register and create your
+token [Register](https://app.balldontlie.io/signup).
